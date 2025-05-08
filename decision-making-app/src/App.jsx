@@ -6,7 +6,11 @@ function App() {
     <>
       <div>
              <h1>Decision Making App</h1>
-             <h2></h2>
+             <form>
+              <input typr="text">Username</input>
+              <input type="password">Password</input>
+             </form>
+             <button>Submit</button>
           </div>
        </>
   )
