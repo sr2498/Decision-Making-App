@@ -22,7 +22,8 @@ function App() {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2 className="login-title">Login</h2>
+        <h2 className="login-heading">Decision Making App</h2>
+        <h3 className="login-title">Login</h3>
         <form onSubmit={handleLogin}>
           <div className="form-group">
             <label>Email</label>
@@ -48,7 +49,7 @@ function App() {
           <button type="submit" className="login-button">
             Login
           </button>
-          <div className="login links">
+          <div className="login-links">
             <a href= "/signup"> Don't have an account?</a>
             <a href="/forget-password">Forget Password</a>
           </div>
