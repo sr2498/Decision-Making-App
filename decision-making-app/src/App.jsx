@@ -1,19 +1,61 @@
-import { useState } from 'react'
-import './App.css'
+import React, { useState } from "react";
+import "./App.css"; // Import your CSS file
 
 function App() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+
+    if (!email || !password) {
+      setError("Both fields are required.");
+      return;
+    }
+
+    console.log("Logged in with:", { email, password });
+    setError("");
+    alert("Login successful!");
+  };
+
   return (
-    <>
-      <div>
-             <h1>Decision Making App</h1>
-             <form>
-              <input typr="text">Username</input>
-              <input type="password">Password</input>
-             </form>
-             <button>Submit</button>
+    <div className="login-container">
+      <div className="login-box">
+        <h2 className="login-title">Login</h2>
+        <form onSubmit={handleLogin}>
+          <div className="form-group">
+            <label>Email</label>
+            <input
+              type="email"
+              className="form-input"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="you@example.com"
+            />
           </div>
-       </>
-  )
+          <div className="form-group">
+            <label>Password</label>
+            <input
+              type="password"
+              className="form-input"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Enter password"
+            />
+          </div>
+          {error && <p className="error-text">{error}</p>}
+          <button type="submit" className="login-button">
+            Login
+          </button>
+          <div className="login links">
+            <a href= "/signup"> Don't have an account?</a>
+            <a href="/forget-password">Forget Password</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
