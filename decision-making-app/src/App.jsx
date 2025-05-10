@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import "./App.css"; // Import your CSS file
+import { useNavigate } from "react-router-dom";
+import "./App.css";
 
 function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -17,6 +19,9 @@ function App() {
     console.log("Logged in with:", { email, password });
     setError("");
     alert("Login successful!");
+
+    // Navigate to /home
+    navigate("/home");
   };
 
   return (
@@ -50,7 +55,7 @@ function App() {
             Login
           </button>
           <div className="login-links">
-            <a href= "/signup"> Don't have an account?</a>
+            <a href="/signup">Don't have an account?</a>
             <a href="/forget-password">Forget Password</a>
           </div>
         </form>
