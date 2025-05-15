@@ -15,5 +15,3 @@ A simple React-based login application that simulates user authentication. Users
 - CSS3
 - React Router DOM (v6+)
 - Node.js (18+ recommended)
-
-
