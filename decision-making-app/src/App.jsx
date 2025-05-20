@@ -15,7 +15,7 @@ function App() {
       setError("Both fields are required.");
       return;
     }
-
+    
     console.log("Logged in with:", { email, password });
     setError("");
     alert("Login successful!");
