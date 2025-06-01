@@ -1,14 +1,26 @@
-import React from 'react'
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import "./Home.css"; // optional: for custom styling
 
-const Home = () => {
+function Home() {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    alert("Logged out!");
+    navigate("/"); // navigate back to login
+  };
+
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <h2>What would you like to help today??</h2>
+    <div className="home-container">
+      <div className="home-box">
+        <h1 className="home-title">Welcome to the Decision Making App!</h1>
+        <p className="home-message">You have successfully logged in.</p>
+        <button onClick={handleLogout} className="logout-button">
+          Logout
+        </button>
+      </div>
     </div>
   );
 }
 
-export default Home
-
-
+export default Home;
