@@ -15,3 +15,13 @@ A simple React-based login application that simulates user authentication. Users
 - CSS3
 - React Router DOM (v6+)
 - Node.js (18+ recommended)
+
+## Author
+
+**Sandhya Rani**
+
+Master of Science in Computer Science
+
+New Jersey Institute of Technology (NJIT)
+
+GitHub: https://github.com/sr2498
