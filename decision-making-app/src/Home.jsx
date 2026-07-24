@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css"; // optional: for custom styling
 
+
 function Home() {
   const navigate = useNavigate();
 
@@ -24,6 +25,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
