@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
 
+
 function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -24,6 +25,7 @@ function App() {
     navigate("/home");
   };
 
+  
   return (
     <div className="login-container">
       <div className="login-box">
@@ -65,6 +67,3 @@ function App() {
 }
 
 export default App;
-
-
-
