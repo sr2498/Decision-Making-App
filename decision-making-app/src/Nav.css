@@ -7,14 +7,12 @@
   color: white;
 }
 
-
 .navbar-logo a {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 
 .navbar-links {
   list-style: none;
@@ -24,7 +22,6 @@
   padding: 0;
 }
 
-
 .navbar-links li a {
   color: white;
   text-decoration: none;
@@ -33,6 +30,3 @@
 .navbar-links li a:hover {
   text-decoration: underline;
 }
-
-
-
