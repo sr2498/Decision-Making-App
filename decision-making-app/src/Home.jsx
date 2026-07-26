@@ -11,6 +11,7 @@ function Home() {
     navigate("/"); // navigate back to login
   };
 
+  
   return (
     <div className="home-container">
       <div className="home-box">
@@ -25,3 +26,6 @@ function Home() {
 }
 
 export default Home;
+
+
+
