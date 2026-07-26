@@ -6,7 +6,6 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -18,3 +17,6 @@ root.render(
     <Footer />
   </BrowserRouter>
 );
+
+
+
