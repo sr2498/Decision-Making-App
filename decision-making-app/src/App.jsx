@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
 
-
 function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -68,6 +67,3 @@ function App() {
 
 
 export default App;
-
-
-
