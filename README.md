@@ -22,6 +22,5 @@ Decision-Making-App is a simple React-based login application that simulates use
 Master of Science in Computer Science  
 New Jersey Institute of Technology (NJIT)  
 
+
 GitHub: https://github.com/sr2498
-
-
