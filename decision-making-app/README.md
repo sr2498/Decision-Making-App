@@ -1,12 +1,26 @@
-# React + Vite
+# Decision-Making App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Decision-Making-App is a simple React-based login application that simulates user authentication. Users can enter their login credentials, and after successful validation, they are redirected to the Home Page.
 
-Currently, two official plugins are available:
+## Features
+- Responsive login page design
+- Client-side form validation
+- Navigation using React Router DOM
+- Login form with username/email and password fields
+- Links for “Don’t have an account?” and “Forgot Password?”
+- Clean and simple user interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- CSS3
+- React Router DOM v6+
+- Node.js 18+
 
-## Expanding the ESLint configuration
+## Author
+**Sandhya Rani**  
+Master of Science in Computer Science  
+New Jersey Institute of Technology (NJIT)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+GitHub: https://github.com/sr2498
