@@ -1,4 +1,4 @@
-# Decision-Making-App
+# Decision-Making App
 
 ## Overview
 Decision-Making-App is a simple React-based login application that simulates user authentication. Users can enter their login credentials, and after successful validation, they are redirected to the Home Page.
