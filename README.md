@@ -17,9 +17,4 @@ Decision-Making-App is a simple React-based login application that simulates use
 - React Router DOM v6+
 - Node.js 18+
 
-## Author
-**Sandhya Rani**  
-Master of Science in Computer Science  
-New Jersey Institute of Technology (NJIT)  
 
-GitHub: https://github.com/sr2498
