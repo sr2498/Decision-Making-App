@@ -12,9 +12,10 @@ Decision-Making-App is a simple React-based login application that simulates use
 - Clean and simple user interface
 
 ## Tech Stack
-- React
-- CSS3
-- React Router DOM v6+
-- Node.js 18+
+- **React.js –** Building reusable UI components
+- **JavaScript –** Application logic and form handling
+- **CSS3 –** Styling and responsive design
+- **React Router DOM v6+ –** Page navigation and routing
+- **Node.js 18+ –** Development environment
 
 
